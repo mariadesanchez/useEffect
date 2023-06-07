@@ -8,7 +8,7 @@ function App() {
   const [toggle, setToggle] = useState(true)
 
   return (
-    <div style={{ backgroundColor: '#A9A9A9',width:'600px',height:'200px',borderRadius:'10px'}}>
+    <div style={{ backgroundColor: '#A9A9A9',width:'400px',height:'200px',borderRadius:'10px'}}>
     {toggle ? 
      <FuncComponent/>
      
