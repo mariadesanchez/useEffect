@@ -28,8 +28,8 @@ const FuncComponent = () => {
         
         <>
     
-            <h2 style={{fontSize:'3em', marginTop:'300px'}}>Su Pedido:</h2>
-            <h3 style={{fontSize:'2em'}}>{pedido}</h3>
+            <h2 style={{fontSize:'2em',}}>Su Pedido:</h2>
+            <h3 style={{fontSize:'1em'}}>{pedido}</h3>
             {/*   // <button
             //     onClick={() => setPedido('') }
             // >Cancelar Pedido</button> */}

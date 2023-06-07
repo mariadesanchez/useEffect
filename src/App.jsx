@@ -8,14 +8,14 @@ function App() {
   const [toggle, setToggle] = useState(true)
 
   return (
-    <div style={{ backgroundColor: '#A9A9A9',width:'800px',height:'500px',borderRadius:'10px'}}>
+    <div style={{ backgroundColor: '#A9A9A9',width:'600px',height:'200px',borderRadius:'10px'}}>
     {toggle ? 
      <FuncComponent/>
      
       :
       <ClassComponent/>
     }
-    <button style={{ backgroundColor: 'rgb(37, 150, 190)',width:'400px',height:'80px',fontSize:'2em'}}
+    <button style={{ backgroundColor: 'rgb(37, 150, 190)',width:'200px',height:'50px',fontSize:'1em'}}
       onClick={() => setToggle(!toggle)}
     >Cancelar Pedido</button>
     </div>

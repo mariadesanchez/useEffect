@@ -24,8 +24,8 @@ export default class ClassComponent extends Component {
     // console.log('Class: Se ejecuta el render')
     return (
       <div>
-           <h2 style={{fontSize:'3em', marginTop:'300px'}}>Su Pedido:</h2>
-            <h3 style={{fontSize:'2em'}}>{this.state.pedido}</h3>
+           <h2 style={{fontSize:'2em'}}>Su Pedido:</h2>
+            <h3 style={{fontSize:'1em'}}>{this.state.pedido}</h3>
          
             {/* <button
                 onClick={() => this.setState({name: 'Nicolas'})}
